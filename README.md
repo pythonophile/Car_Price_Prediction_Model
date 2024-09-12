@@ -118,5 +118,7 @@ Results
 After training and evaluating the model, the following metrics were achieved:
 
 Mean Squared Error (MSE): XX.XX
+
 R-Squared (R²): XX.XX
+
 These results indicate how well the model predicts car prices. You can experiment with different models and feature sets to improve performance.
