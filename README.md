@@ -1,7 +1,8 @@
-Car Price Prediction Model
+# Car Price Prediction Model
+
 This project is a car price prediction model that uses machine learning to predict the price of a car based on various features such as the car's make, model, year of manufacturing, mileage, fuel type, and other relevant attributes. The model was trained using a dataset of car listings, and it leverages regression techniques to make predictions.
 
-Table of Contents
+# Table of Contents
 Project Overview
 Dataset
 Features
@@ -11,12 +12,13 @@ Installation
 Usage
 Results
 License
-Project Overview
+
+# Project Overview
 The Car Price Prediction Model is designed to assist car buyers and sellers in estimating the market value of a car based on its attributes. The primary goal is to predict a car’s selling price by training a machine learning model on historical car data. This can be especially useful for sellers wanting to list their vehicles at competitive prices and for buyers looking to estimate the fair price of a used car.
 
 The model was built using the scikit-learn library in Python, utilizing a Linear Regression approach, which is effective for predicting continuous values like car prices.
 
-Dataset
+#  Dataset
 The dataset used for training the model contains several thousand records of car listings, with features such as:
 
 Name: The car model name
@@ -31,7 +33,8 @@ Engine: Engine size (in CC)
 Max Power: Maximum power of the car’s engine (in BHP)
 Seats: Number of seats in the car
 Selling Price: The actual price of the car (target variable)
-Features
+
+# Features
 The following features were used as inputs to predict the price of a car:
 
 Car Model (Name)
@@ -47,7 +50,7 @@ Maximum Power
 Number of Seats
 The target variable is the Selling Price.
 
-Modeling
+# Modeling
 We used a Linear Regression model from the scikit-learn library to predict the car prices. The process involved the following steps:
 
 Data Preprocessing: Handling missing values, encoding categorical features, and scaling the data.
