@@ -3,7 +3,7 @@
 This project is a car price prediction model that uses machine learning to predict the price of a car based on various features such as the car's make, model, year of manufacturing, mileage, fuel type, and other relevant attributes. The model was trained using a dataset of car listings, and it leverages regression techniques to make predictions.
 
 # Table of Contents
-Project Overview
+Project Overview 
 Dataset
 Features
 Modeling
