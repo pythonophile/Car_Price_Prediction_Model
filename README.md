@@ -4,14 +4,20 @@ This project is a car price prediction model that uses machine learning to predi
 
 # Table of Contents
 Project Overview 
+
 Dataset
+
 Features
+
 Modeling
+
 Requirements
+
 Installation
+
 Usage
+
 Results
-License
 
 # Project Overview
 The Car Price Prediction Model is designed to assist car buyers and sellers in estimating the market value of a car based on its attributes. The primary goal is to predict a car’s selling price by training a machine learning model on historical car data. This can be especially useful for sellers wanting to list their vehicles at competitive prices and for buyers looking to estimate the fair price of a used car.
@@ -22,50 +28,85 @@ The model was built using the scikit-learn library in Python, utilizing a Linear
 The dataset used for training the model contains several thousand records of car listings, with features such as:
 
 Name: The car model name
+
 Year: The year of manufacture
+
 KM Driven: The distance the car has traveled (in kilometers)
+
 Fuel Type: Type of fuel the car uses (Petrol, Diesel, CNG, etc.)
+
 Seller Type: Whether the seller is an individual or a dealer
+
 Transmission: Type of transmission (Manual or Automatic)
+
 Owner Type: How many previous owners the car had
+
 Mileage: Mileage in kmpl (kilometers per liter)
+
 Engine: Engine size (in CC)
+
 Max Power: Maximum power of the car’s engine (in BHP)
+
 Seats: Number of seats in the car
+
 Selling Price: The actual price of the car (target variable)
 
 # Features
 The following features were used as inputs to predict the price of a car:
-
 Car Model (Name)
+
 Year of Manufacture
+
 Kilometers Driven
+
 Fuel Type
+
 Seller Type
+
 Transmission Type
+
 Number of Previous Owners
+
 Mileage
+
 Engine Capacity
+
 Maximum Power
+
 Number of Seats
+
 The target variable is the Selling Price.
 
 # Modeling
 We used a Linear Regression model from the scikit-learn library to predict the car prices. The process involved the following steps:
 
-Data Preprocessing: Handling missing values, encoding categorical features, and scaling the data.
-Train-Test Split: Dividing the dataset into a training set and a test set to evaluate the model’s performance.
-Model Training: Training the Linear Regression model on the training dataset.
-Model Evaluation: Evaluating the model using metrics such as Mean Squared Error (MSE) and R-squared (R²) on the test set.
+# Data Preprocessing: 
+Handling missing values, encoding categorical features, and scaling the data.
+
+# Train-Test Split: 
+Dividing the dataset into a training set and a test set to evaluate the model’s performance.
+
+# Model Training: 
+Training the Linear Regression model on the training dataset.
+
+# Model Evaluation:
+Evaluating the model using metrics such as Mean Squared Error (MSE) and R-
+squared (R²) on the test set.
+
 Requirements
 To run this project, you’ll need the following Python libraries:
-
 pandas
+
 numpy
+
 scikit-learn
+
 streamlit (if deploying with Streamlit)
+
 matplotlib (for visualization, optional)
+
 Installation
+
 Clone the repository:
 
 bash
